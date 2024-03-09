@@ -13,6 +13,9 @@
 		EB1EFCA82B9CB23B00E5FE60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1EFCA72B9CB23B00E5FE60 /* Preview Assets.xcassets */; };
 		EB1EFCAA2B9CB23B00E5FE60 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EFCA92B9CB23B00E5FE60 /* Persistence.swift */; };
 		EB1EFCAD2B9CB23B00E5FE60 /* CoreDataTodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB1EFCAB2B9CB23B00E5FE60 /* CoreDataTodoList.xcdatamodeld */; };
+		EB1EFCC82B9D16BB00E5FE60 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EFCC72B9D16BB00E5FE60 /* Todo+CoreDataProperties.swift */; };
+		EB1EFCCA2B9D16C600E5FE60 /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EFCC92B9D16C600E5FE60 /* Todo+CoreDataClass.swift */; };
+		EB1EFCCC2B9D16EA00E5FE60 /* AddTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1EFCCB2B9D16EA00E5FE60 /* AddTodo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		EB1EFCA72B9CB23B00E5FE60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB1EFCA92B9CB23B00E5FE60 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EB1EFCAC2B9CB23B00E5FE60 /* CoreDataTodoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTodoList.xcdatamodel; sourceTree = "<group>"; };
+		EB1EFCC72B9D16BB00E5FE60 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EB1EFCC92B9D16C600E5FE60 /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EB1EFCCB2B9D16EA00E5FE60 /* AddTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 		EB1EFC9F2B9CB23A00E5FE60 /* CoreDataTodoList */ = {
 			isa = PBXGroup;
 			children = (
+				EB1EFCC72B9D16BB00E5FE60 /* Todo+CoreDataProperties.swift */,
+				EB1EFCC92B9D16C600E5FE60 /* Todo+CoreDataClass.swift */,
 				EB1EFCA02B9CB23A00E5FE60 /* CoreDataTodoListApp.swift */,
 				EB1EFCA22B9CB23A00E5FE60 /* ContentView.swift */,
+				EB1EFCCB2B9D16EA00E5FE60 /* AddTodo.swift */,
 				EB1EFCA42B9CB23B00E5FE60 /* Assets.xcassets */,
 				EB1EFCA92B9CB23B00E5FE60 /* Persistence.swift */,
 				EB1EFCAB2B9CB23B00E5FE60 /* CoreDataTodoList.xcdatamodeld */,
@@ -145,8 +154,11 @@
 			files = (
 				EB1EFCAA2B9CB23B00E5FE60 /* Persistence.swift in Sources */,
 				EB1EFCA32B9CB23A00E5FE60 /* ContentView.swift in Sources */,
+				EB1EFCCC2B9D16EA00E5FE60 /* AddTodo.swift in Sources */,
 				EB1EFCAD2B9CB23B00E5FE60 /* CoreDataTodoList.xcdatamodeld in Sources */,
 				EB1EFCA12B9CB23A00E5FE60 /* CoreDataTodoListApp.swift in Sources */,
+				EB1EFCC82B9D16BB00E5FE60 /* Todo+CoreDataProperties.swift in Sources */,
+				EB1EFCCA2B9D16C600E5FE60 /* Todo+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

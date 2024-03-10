@@ -60,7 +60,7 @@ struct ContentView: View {
                     Button("Delete all", action: {
                         self.presetDeleteAlert = true
                     }).alert(
-                        "Delete all todos",
+                        "Delete all task",
                         isPresented: $presetDeleteAlert
                     ) {
                         Button("Delete", role: .destructive, action: self.cleanTodos)

@@ -19,7 +19,11 @@ struct AddTodo: View {
                         self.addTodo()
                     }
                 }
-                Button("Add", action: self.addTodo).disabled(self.title.isEmpty).buttonStyle(.borderedProminent)
+                HStack {
+                    Spacer()
+                    Button("Add", action: self.addTodo).disabled(self.title.isEmpty).buttonStyle(.borderedProminent)
+                }
+                
             }.navigationTitle("Add task")
         }
     }
